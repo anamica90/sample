@@ -38,7 +38,7 @@ class Application extends \Phalcon\Mvc\Application
 			));
 
 			$router->add("/login", array(
-				'namespace' => 'Multiple\Backend\Module',
+				'namespace' => 'Multiple\Backend\Controllers',
 				'module' => 'backend',
 				'controller' => 'login',
 				'action' => 'index',
